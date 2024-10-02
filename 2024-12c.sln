@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobbElem", "tombelem\TobbEl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "macskak", "macskak\macskak.csproj", "{A7CFFE0C-283A-4013-BFD4-86122770EADA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logika", "logika\logika.csproj", "{857AC1EB-1631-42D2-B921-C05762F56E57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A7CFFE0C-283A-4013-BFD4-86122770EADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7CFFE0C-283A-4013-BFD4-86122770EADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7CFFE0C-283A-4013-BFD4-86122770EADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857AC1EB-1631-42D2-B921-C05762F56E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857AC1EB-1631-42D2-B921-C05762F56E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857AC1EB-1631-42D2-B921-C05762F56E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857AC1EB-1631-42D2-B921-C05762F56E57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
