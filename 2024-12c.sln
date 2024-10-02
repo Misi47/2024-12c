@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logika", "logika\logika.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prefix", "prefix\prefix.csproj", "{1F1A94B6-AFE8-40E8-8B56-A1BB7AD49606}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haág", "haág\haág.csproj", "{448A06A9-CDFB-4C09-84A4-051ABB6909CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1F1A94B6-AFE8-40E8-8B56-A1BB7AD49606}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F1A94B6-AFE8-40E8-8B56-A1BB7AD49606}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F1A94B6-AFE8-40E8-8B56-A1BB7AD49606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448A06A9-CDFB-4C09-84A4-051ABB6909CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448A06A9-CDFB-4C09-84A4-051ABB6909CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448A06A9-CDFB-4C09-84A4-051ABB6909CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448A06A9-CDFB-4C09-84A4-051ABB6909CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
