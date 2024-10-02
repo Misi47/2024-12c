@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teszt", "teszt\teszt.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobbElem", "TobbElem\TobbElem.csproj", "{C42CAE33-7D2C-451A-8B9D-7231D6641F1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{4817BE04-38C0-4D99-AB17-A17D90653A15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C42CAE33-7D2C-451A-8B9D-7231D6641F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C42CAE33-7D2C-451A-8B9D-7231D6641F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C42CAE33-7D2C-451A-8B9D-7231D6641F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4817BE04-38C0-4D99-AB17-A17D90653A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4817BE04-38C0-4D99-AB17-A17D90653A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4817BE04-38C0-4D99-AB17-A17D90653A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4817BE04-38C0-4D99-AB17-A17D90653A15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
