@@ -22,6 +22,7 @@ namespace macskak
             {
                 Console.WriteLine("A c állat macska");
             }
+            Console.ReadKey();
         }
     }
 }
