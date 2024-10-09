@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onallo", "onallo\onallo.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kor", "kor\kor.csproj", "{665ACAD2-3636-4654-B384-B95BC44ACFA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teglalap", "teglalap\teglalap.csproj", "{95710A0D-62A8-4BF9-A05E-0E3BF734370A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{665ACAD2-3636-4654-B384-B95BC44ACFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{665ACAD2-3636-4654-B384-B95BC44ACFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{665ACAD2-3636-4654-B384-B95BC44ACFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95710A0D-62A8-4BF9-A05E-0E3BF734370A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95710A0D-62A8-4BF9-A05E-0E3BF734370A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95710A0D-62A8-4BF9-A05E-0E3BF734370A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95710A0D-62A8-4BF9-A05E-0E3BF734370A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
