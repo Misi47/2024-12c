@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prefix", "prefix\prefix.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haág", "haág\haág.csproj", "{448A06A9-CDFB-4C09-84A4-051ABB6909CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onallo", "onallo\onallo.csproj", "{94DF2EA7-DC2D-4282-BD98-8B939D366A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kor", "kor\kor.csproj", "{665ACAD2-3636-4654-B384-B95BC44ACFA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{448A06A9-CDFB-4C09-84A4-051ABB6909CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448A06A9-CDFB-4C09-84A4-051ABB6909CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448A06A9-CDFB-4C09-84A4-051ABB6909CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DF2EA7-DC2D-4282-BD98-8B939D366A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DF2EA7-DC2D-4282-BD98-8B939D366A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DF2EA7-DC2D-4282-BD98-8B939D366A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DF2EA7-DC2D-4282-BD98-8B939D366A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665ACAD2-3636-4654-B384-B95BC44ACFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665ACAD2-3636-4654-B384-B95BC44ACFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665ACAD2-3636-4654-B384-B95BC44ACFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665ACAD2-3636-4654-B384-B95BC44ACFA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
