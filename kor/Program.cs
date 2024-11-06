@@ -31,6 +31,10 @@ namespace ConsoleApp2
             Console.WriteLine($"A {k2.GetSugar()} sugarú kör kerülete{k2.GetKerulet()}, területe{k2.GetTerulet()}");
             #endregion EOF 2.objektum
 
+            #region 3. objektum
+            kor2 k21 = new kor2(24.5);
+            Console.WriteLine($"a kör adatai: \nsugár={k21.GetSugár()},\nterület={k21.GetTerület()},\nkerület={k21.GetKerület()}");
+            #endregion 3. objektum vége
 
             Console.ReadKey();
 

@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kor
-    {
+namespace ConsoleApp2
+{
         class kor2
         {
             // osztályváltozó
@@ -25,19 +25,31 @@ namespace kor
                 this.sugár = r;
             }
             public void kalkKerület()
-
             {
                 this.kerület = 2 * this.sugár * Math.PI;
             }
             
-             private double kalkTerület(double r)
-             {
+            private double kalkTerület(double r)
+            {
                 return Math.Pow(r, 2) * Math.PI;
-             }
-             private void számítások()
-             {
+            }
+            private void számítások()
+            {
                 kalkKerület();
                 this.terület = kalkTerület(this.sugár);
-             }
-        }
+            }
+
+            public double GetKerület()
+            {
+                return this.kerület;
+            }
+            public double GetTerület()
+            {
+                return this.terület;
+            }
+            public double GetSugár()
+            {
+                return this.sugár;
+            }
+    }
     }
