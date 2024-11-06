@@ -5,8 +5,39 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace kor
-{
-    class kor2
     {
+        class kor2
+        {
+            // osztályváltozó
+            private double sugár, kerület, terület;
+
+            // konstruktorok
+
+            public kor2(){}
+            public kor2(double r)
+            {
+                this.sugár = r;
+                számítások();
+            }
+            // metódusok
+            public void SetSugár(double r)
+            {
+                this.sugár = r;
+            }
+            public void kalkKerület()
+
+            {
+                this.kerület = 2 * this.sugár * Math.PI;
+            }
+            
+             private double kalkTerület(double r)
+             {
+                return Math.Pow(r, 2) * Math.PI;
+             }
+             private void számítások()
+             {
+                kalkKerület();
+                this.terület = kalkTerület(this.sugár);
+             }
+        }
     }
-}
