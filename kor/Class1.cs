@@ -4,14 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kor
+namespace ConsoleApp2
+
 {
+
     class kor
+
     {
-        private double
-        sugar,
-        kerulet,
-        terulet;
+
+        // Az osztály feladata: a sugárból kiszámítja a kör területét, kerületét//
+
+        //konstruktorok szerepe a példányosítás //
+
+        //osztályváltozók//
+
+        private double sugar,
+            kerulet,
+            terulet;
+
+        //konstruktorok
         public kor() { }
         public kor(double r)
         {
@@ -21,40 +32,34 @@ namespace kor
         {
             this.sugar = r;
         }
-
         public void SetKerulet()
+
         {
             this.kerulet = 2 * this.sugar * Math.PI;
         }
         public void SetTerulet()
         {
-            double eredmeny1 = 0.0,
-                   eredmeny2 = 0.0;
-            eredmeny1 = this.sugar * this.sugar * Math.PI;
-
+            double eredmeny = 0.0,
+            eredmeny2 = 0.0;
+            eredmeny = this.sugar * this.sugar * Math.PI;
             eredmeny2 = Math.Pow(this.sugar, 2) * Math.PI;
-            if (eredmeny1 == eredmeny2)
+            if (eredmeny == eredmeny2)
             {
-                this.terulet = eredmeny1;
+                this.terulet = eredmeny;
             }
             else
             {
-                Console.WriteLine($"Eredmény1({eredmeny1})!= Eredmény2({eredmeny2})");
+                Console.WriteLine($"Eredmény1 ({eredmeny})= Eredmény2({eredmeny2}");
             }
 
         }
-        public double GetKerulet()
-        {
-            return this.kerulet;
-        }
-        public double GetTerulet()
-        {
-            return this.terulet;
-        }
-        public double GetSugar()
-        {
-            return this.sugar;
-        }
+        public double GetKerulet() { return this.kerulet; }
+        public double GetTerulet() { return this.terulet; }
+        public double GetSugar() { return this.sugar; }
+
+
     }
 
 }
+
+ 
