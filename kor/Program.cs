@@ -33,7 +33,7 @@ namespace ConsoleApp2
 
             #region 3. objektum
             kor2 k21 = new kor2(24.5);
-            Console.WriteLine($"a kör adatai: \nsugár={k21.GetSugár()},\nterület={k21.GetTerület()},\nkerület={k21.GetKerület()}");
+            Console.WriteLine($"a kör adatai: \nsugár={k21.GetSugár()}\nterület={k21.GetTerület()}\nkerület={k21.GetKerület()}");
             #endregion 3. objektum vége
 
             Console.ReadKey();
