@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace kor
 
 {
 
@@ -15,7 +15,7 @@ namespace ConsoleApp2
         //konstruktorok szerepe a példányosítás //
         //osztályváltozók//
 
-        private double sugar,
+            protected double sugar,
             kerulet,
             terulet;
 
