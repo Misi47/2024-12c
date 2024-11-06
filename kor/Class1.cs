@@ -11,11 +11,8 @@ namespace ConsoleApp2
     class kor
 
     {
-
         // Az osztály feladata: a sugárból kiszámítja a kör területét, kerületét//
-
         //konstruktorok szerepe a példányosítás //
-
         //osztályváltozók//
 
         private double sugar,
@@ -28,6 +25,8 @@ namespace ConsoleApp2
         {
             this.sugar = r;
         }
+
+        //metodusok
         public void ReadSugar(double r)
         {
             this.sugar = r;
