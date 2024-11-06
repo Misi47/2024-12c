@@ -15,6 +15,7 @@ namespace kor
         public henger(double r,double m) 
         {
             this.sugar = r;
+            SetKerulet();
         }
     }
 }
