@@ -10,12 +10,23 @@ namespace kor
     {
         // osztályváltozók  
 
-        private double magassag;
+        private double magassag, terfogat;
 
         public henger(double r,double m) 
         {
             this.sugar = r;
+            this.magassag = m;
             SetKerulet();
+            SetTerulet();
+            this.terfogat = this.terulet * this.magassag;
+        }
+        public double GetTérfogat()
+        {
+            return this.terfogat;
+        }
+        public double GetMagassag()
+        {
+            return this.magassag;
         }
     }
 }
