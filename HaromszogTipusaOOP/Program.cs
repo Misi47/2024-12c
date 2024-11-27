@@ -45,7 +45,7 @@ namespace HaromszogTipusaOOP
 
         public double Terulet()
         {
-            if (!ErvenyesHaromszog()) throw new InvalidOperationException("Nem érvényes háromszög.");
+            if (!ErvenyesHaromszog()) return 0.0;
             double s = (a + b + c) / 2.0;
             return Math.Sqrt(s * (s - a) * (s - b) * (s - c));
         }
