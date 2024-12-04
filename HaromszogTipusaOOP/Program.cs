@@ -74,4 +74,3 @@ namespace HaromszogTipusaOOP
         }
     }
 }
-Az előzőben kiadott Háromszögek feladatot egészítsék ki a beolvasott adatok konvertálásának hibakezelésével.
