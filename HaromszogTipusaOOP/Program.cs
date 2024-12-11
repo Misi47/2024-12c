@@ -73,7 +73,7 @@ namespace HaromszogTipusaOOP
 
         {
 
-            if (!ErvenyesHaromszog()) throw new InvalidOperationException("Nem érvényes háromszög.");
+            if (!ErvenyesHaromszog()) return 0.0;
 
             double s = (a + b + c) / 2.0;
 
