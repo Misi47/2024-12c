@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34301.259
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobbElem", "tombelem\TobbElem.csproj", "{836DD604-F910-4947-9FA0-6D3799D6DA90}"
 EndProject
@@ -20,6 +20,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teglalap", "teglalap\teglalap.csproj", "{95710A0D-62A8-4BF9-A05E-0E3BF734370A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kivetel2", "Kivetel2\Kivetel2.csproj", "{A4DF24BF-F5C0-43CF-AC0D-3D7392E2CC28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poliformoop", "poliformoop\poliformoop.csproj", "{BC9CD3D9-589E-4802-B078-070AA6E73A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gettersetter", "gettersetter\gettersetter.csproj", "{5BA6084B-83A7-4B89-97AA-EA86906D3014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app", "app\app.csproj", "{12503885-B59A-4F7B-90C3-BD1EA2182F16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{A4DF24BF-F5C0-43CF-AC0D-3D7392E2CC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4DF24BF-F5C0-43CF-AC0D-3D7392E2CC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4DF24BF-F5C0-43CF-AC0D-3D7392E2CC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9CD3D9-589E-4802-B078-070AA6E73A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9CD3D9-589E-4802-B078-070AA6E73A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9CD3D9-589E-4802-B078-070AA6E73A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9CD3D9-589E-4802-B078-070AA6E73A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA6084B-83A7-4B89-97AA-EA86906D3014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA6084B-83A7-4B89-97AA-EA86906D3014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA6084B-83A7-4B89-97AA-EA86906D3014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA6084B-83A7-4B89-97AA-EA86906D3014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12503885-B59A-4F7B-90C3-BD1EA2182F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12503885-B59A-4F7B-90C3-BD1EA2182F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12503885-B59A-4F7B-90C3-BD1EA2182F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12503885-B59A-4F7B-90C3-BD1EA2182F16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
