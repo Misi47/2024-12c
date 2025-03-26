@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gettersetter", "gettersette
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app", "app\app.csproj", "{12503885-B59A-4F7B-90C3-BD1EA2182F16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net", "net\net.csproj", "{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{12503885-B59A-4F7B-90C3-BD1EA2182F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12503885-B59A-4F7B-90C3-BD1EA2182F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12503885-B59A-4F7B-90C3-BD1EA2182F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
