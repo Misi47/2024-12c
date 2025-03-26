@@ -14,8 +14,14 @@ namespace net
 {
     public partial class Form1 : Form
     {
-        MySqlConnection mysqlConn;
-        MySqlAttributeCollection formState;
+        #region Kapcsolat properties
+        private MySqlConnection mysqlConn;
+        private MySqlDataReader mySqlDr;
+        #endregion kapcsolat properties
+
+        #region Üzenet szövegek
+        private string openSikeres = "A kapcsolódás az adatbázishoz sikeres!", openNemSikeres = "A kapcsolódás az adatbázishoz sikertelen!", cantoRead = "Az olvasás sikeres", closeDB = "Az adatbázis lezárva";
+        #endregion Üzenet vége
         public Form1()
         {
             InitializeComponent();
@@ -31,6 +37,30 @@ namespace net
 
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            mysqlConn.Close();
+            MessageBox.Show(closeDB);
+        }
+        #region Form és adatbázis állapotai
+        private enum FormState
+        {
+            Closed, //Zárva, nincs csatlakozva
+            Opened, //Csatlakozva, nincs olvasás
+            Reading, //Olvasás közben
+            EditInsert, //Beszúrás
+            EditUpdate, //Rekord szerkesztés
+        }
+        private FormState formstate = FormState.Closed;
+        #endregion a Form és az adatbázis állapotai
+
+        #region Gomb feliratai
+        private string insBasic = "Beszúrás";
+        private string insEdit = "Szerkesztés vége";
+        private string updBasic = "Módosítás";
+        private string updEdit = "Módisítás vége";
+        #endregion Gomb feliratai
+
         private void button2_Click(object sender, EventArgs e)
         {
 
@@ -38,7 +68,7 @@ namespace net
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            mysqlConnect();
         }
         private void mysqlConnect()
         {

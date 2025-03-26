@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app", "app\app.csproj", "{1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net", "net\net.csproj", "{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doga", "doga\doga.csproj", "{929F0F54-7BD7-47C2-9FD3-CCF52D422859}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11B4B6B6-3FB6-4E02-A70F-2CCD2AEF0EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929F0F54-7BD7-47C2-9FD3-CCF52D422859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929F0F54-7BD7-47C2-9FD3-CCF52D422859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929F0F54-7BD7-47C2-9FD3-CCF52D422859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929F0F54-7BD7-47C2-9FD3-CCF52D422859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
